@@ -12,7 +12,7 @@ public class ButtonSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MovingPlatform = transform.parent.GetChild(0).gameObject;
+        MovingPlatform = transform.parent.GetChild(1).gameObject;
         MovingPlatform = MovingPlatform.transform.GetChild(1).gameObject;
     }
     private void OnCollisionEnter2D(Collision2D collision)

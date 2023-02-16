@@ -86,7 +86,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -223,10 +223,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: d87affff9491ffff16a7ffff58abffff50b9ffff02c2ffffdad0ffff3ad1ffff42d1ffff46d1ffffe0dbffff14eeffff2eeeffff48eeffff52eeffffd0eeffff04efffffaef1ffff7af5ffffc4f5ffff72f6ffffb8f6ffffb8f9ffff42830000a2a00000c6cf0000cad000000ad20000eedc000032df000032f300004af30000e0f30000eef300005cf4000034f5000042f50000c2f50000
+      scrollPos: {x: 0, y: 82.5}
+      m_SelectedIDs: 02820100
+      m_LastClickedID: 98818
+      m_ExpandedIDs: f603ffff643bffffb841ffff5a49ffff964cffff9a4cffff784effff964effff3054fffffe56ffff0c5bffffd85dfffff060ffff5065ffffb067ffff226affff4a72ffffd87affff9491ffff16a7ffff58abffff50b9ffff02c2ffffdad0ffff3ad1ffff42d1ffff46d1ffffe0dbffff14eeffff2eeeffff48eeffff52eeffffd0eeffff04efffffaef1ffff7af5ffffc4f5ffff72f6ffffb8f6ffffb8f9ffff42830000a2a00000c6cf0000cad000000ad20000eedc000032df000032f300004af30000e0f30000eef300005cf4000034f5000042f50000c2f5000004640100c88101003c8201001a920100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -353,7 +353,7 @@ MonoBehaviour:
       containerId: overlay-toolbar__top
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -524,9 +524,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.3832474, y: 4.5368304, z: -0.40863183}
+    m_Target: {x: -2.7242024, y: -1.3533553, z: -0.48072004}
     speed: 2
-    m_Value: {x: -5.3832474, y: 4.5368304, z: -0.40863183}
+    m_Value: {x: -2.7242024, y: -1.3533553, z: -0.48072004}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -577,9 +577,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 13.493916
+    m_Target: 5.262041
     speed: 2
-    m_Value: 13.493916
+    m_Value: 5.262041
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -672,22 +672,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Prefabs/Bullet
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Prefabs/Bullet
   m_LastFoldersGridSize: 50
   m_LastProjectPath: C:\Users\raghuveer\Downloads\Unity\SiangGameDevPS\growSiang
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 48.5}
-    m_SelectedIDs: 1e660000
-    m_LastClickedID: 26142
-    m_ExpandedIDs: 00000000b665000000ca9a3b
+    m_SelectedIDs: 247b0000
+    m_LastClickedID: 31524
+    m_ExpandedIDs: 00000000b66500002266000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -740,8 +740,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 02820100
+    m_LastClickedInstanceID: 98818
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000be61000074610000ac260000
     m_RenameOverlay:

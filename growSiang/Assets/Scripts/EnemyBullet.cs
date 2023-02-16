@@ -9,6 +9,7 @@ public class EnemyBullet : MonoBehaviour
     private Rigidbody2D rb;
     public float force;
     private float timer;
+   [SerializeField] private float maxTime;
     
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,7 @@ public class EnemyBullet : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if(timer>4f)
+        if(timer>maxTime)
         {
             Destroy(gameObject);
         }
