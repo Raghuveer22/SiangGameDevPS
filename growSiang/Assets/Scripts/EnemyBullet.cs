@@ -9,8 +9,8 @@ public class EnemyBullet : MonoBehaviour
     private Rigidbody2D rb;
     public float force;
     private float timer;
-   [SerializeField] private float maxTime;
-    
+    [SerializeField] private float maxTime;
+    [SerializeField] private GameObject GameOverSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,8 +42,10 @@ public class EnemyBullet : MonoBehaviour
         }
         if(collision.gameObject.CompareTag("Player"))
         {
-            Time.timeScale = 0;
+           
             MenuManager.Instance.OpenMenu("GameOverMenu");
+            
+            GameObject Sound = Instantiate(GameOverSound, transform.position, transform.rotation);
         }
     }
 }

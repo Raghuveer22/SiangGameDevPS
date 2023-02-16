@@ -122,6 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: 4
   maxTime: 3
+  GameOverSound: {fileID: 3089818215363543900, guid: 5202e34c31ff56c4c95779081e42f116, type: 3}
 --- !u!61 &7803372825693316480
 BoxCollider2D:
   m_ObjectHideFlags: 0
