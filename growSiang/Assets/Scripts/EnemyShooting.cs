@@ -9,6 +9,7 @@ public class EnemyShooting : MonoBehaviour
     private float timer=0f;
     [SerializeField] private float nearDistance;
     private GameObject player;
+   [SerializeField] private float intervalTime = 4f;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +24,7 @@ public class EnemyShooting : MonoBehaviour
         if(distance < nearDistance)
         {
             timer += Time.deltaTime;
-            if(timer>2f)
+            if(timer>intervalTime)
             {
                 timer= 0f;
                 shoot();
