@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour
     public Vector3 offset;
     [Range(2, 10)]
     public float smoothFactor;
-
+    public float horizontalBorder;
     private void LateUpdate()
     {
         Follow();
@@ -29,9 +29,9 @@ public class CameraFollow : MonoBehaviour
         {
             smoothPosition.x = -6.2f;
         }
-        else if(smoothPosition.x > 60.8f)
+        else if(smoothPosition.x > horizontalBorder)
         {
-            smoothPosition.x = 60.8f;
+            smoothPosition.x = horizontalBorder;
         }
         transform.position = smoothPosition;
 

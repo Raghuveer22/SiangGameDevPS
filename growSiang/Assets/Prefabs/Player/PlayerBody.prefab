@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontal: 0
-  speed: 1
+  speed: 1.1
   rb: {fileID: 1064855070615494817}
 --- !u!50 &1064855070615494817
 Rigidbody2D:
@@ -150,8 +150,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lower: 0.7
-  upper: 3
-  increment: 0.05
+  upper: 1.5
+  increment: 0.01
 --- !u!1 &7559008406188970227
 GameObject:
   m_ObjectHideFlags: 0
