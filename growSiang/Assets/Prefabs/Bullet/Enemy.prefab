@@ -143,4 +143,4 @@ MonoBehaviour:
   bullet: {fileID: 1180441037524468011, guid: bd6a3f591b9d14a4fb3bfc961a051593, type: 3}
   bulletPos: {fileID: 6514059332548260004}
   nearDistance: 40
-  intervalTime: 20
+  intervalTime: 8
